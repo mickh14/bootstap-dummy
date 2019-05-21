@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-wrapper{
+    
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+    }
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert{
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #e7b20b;
+    border-color: #e7b20b;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/whiskey-tasting-1-700x461.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/*page header*/
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/*Navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgb(0,0,0,0.25);
+}
+
+/*block devider*/
+
+.block-devider{
+    width: 75px;
+    height: 15px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-devider--short{
+    width: 35px;
+}
+
+/*content-container*/
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron smal {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.lead {
+    color: #ceb9cf;
+}
+
+
+/*bottons*/
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #ec2b02;
+    border-color: #ec2b02;
+}
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
